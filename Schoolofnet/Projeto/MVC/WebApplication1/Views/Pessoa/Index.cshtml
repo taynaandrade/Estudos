@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista de Pessoas</h2>
+@Html.ActionLink("Google","Google")
+
+<h3>@ViewBag.Pessoa</h3>
+<br />
+<p> @Html.ActionLink("Cadastrar Pessoa", "Create")</p>
+ <button name="btnCadastro" >Cadastrar Pessoa</button>
